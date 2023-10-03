@@ -1,0 +1,194 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.top-wrapper {
+  /* background-image: url(https://prog-8.com/images/html/advanced/top.png); */
+  background: linear-gradient(25deg, rgba(0, 84, 122, 0.4), rgba(0, 255, 0, 0.4)) ,url(https://cdn.pixabay.com/photo/2016/11/29/11/39/computer-1869236_1280.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 180px 0 100px 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 8px 24px;
+  margin-right: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+  margin: 15px 0;
+  opacity: 0.8;
+}
+
+.Twitter {
+  background-color: #55acee;
+  opacity: 0.8;
+}
+
+.Facebook {
+  background-color: #3b5998;
+  opacity: 0.8;
+  margin-right:10px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+background-color: rgba(34,49,52,0.9);  
+height: 65px;
+position:fixed;
+top: 0;
+width: 100%;
+z-index: 10;
+}
+
+.header-left img {
+  width: 124px;
+  float: left;
+  padding-top: 20px;
+}
+.header-left h4 {
+  color:white;
+}
+.header-right a {
+  float: right;
+  color: white;
+  background-color: rgba(255,255,255,0.3);
+  line-height: 65px;
+  padding: 0 25px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.6);
+}
+
+.lessons-wrapper {
+  height: 580px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  font-size: 13px;
+  width: 80%;
+  color: #b3aeb5;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+.message-wrapper {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.message-wrapper h2, h3 {
+  color: #5f5d60;
+}
+
+.message-wrapper h2 {
+  font-weight: normal;
+}
+
+.message-wrapper span {
+  background-color: #5dca88;
+  box-shadow: 0 7px #1a7940;
+  padding: 15px 40px;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.message-wrapper span:hover {
+  cursor: pointer;
+}
+
+.message-wrapper span:active {
+  box-shadow: none;
+  position: relative;
+  top: 6px;
+}
+
+footer {
+  color: #2c2c2c;
+  font-size: 12px;
+  background: linear-gradient(to bottom, #FFC778, #FFF);
+}
+
+footer .container {
+  padding: 30px 0;
+  border-top: 1px solid #eee;
+}
+
+footer img {
+  width: 124px;
+}
